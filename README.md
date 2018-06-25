@@ -1,5 +1,7 @@
 # DbFit-Docker
-Docker container for running Fitnesse dbfit
+Docker container for running Fitnesse dbfit.  This container updated to use Alpine Linux.
+
+Credit: forked from https://github.com/mattkernow/dbfit-docker
 =======
 # dbfit-docker
 ## DbFit Docker configuration
@@ -11,4 +13,4 @@ To run on localhost:8085:
 `docker run -p 8085:8085 dbfit`
 
 or pull image from Dockerhub:
-`docker pull mattthinkwhere/dbfit`
+`docker pull thinkwhere/dbfit`
